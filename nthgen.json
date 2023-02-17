@@ -1,0 +1,151 @@
+{
+    "id": "nthgen",
+    "name": "NTHGEN",
+    "author": "Jonathan Ulveling",
+    "units": {
+        "the_prototype": {
+            "category": "common",
+            "name": "The Prototype",
+            "description": "The Team must always have a Prototype.",
+            "keywords": [],
+            "models": [
+                {
+                    "name": "The Prototype",
+                    "level": 4,
+                    "speed": 6,
+                    "shooting": 11,
+                    "melee": 11,
+                    "defense": 9,
+                    "survival": 6,
+                    "aptitude": 10,
+                    "points": 100,
+                    "weapons": [],
+                    "min": 1,
+                    "max": 1,
+                    "rules": [],
+                    "options": [
+                        
+                    ]
+                }
+            ]
+        },
+        "next_gen": {
+            "category": "common",
+            "name": "Next Gen",
+            "description": "All Stats are based on the Prototype and updated between battles",
+            "keywords": [],
+            "models": [
+                {
+                    "name": "Next Gen",
+                    "level": 2,
+                    "speed": 5,
+                    "shooting": 9,
+                    "melee": 9,
+                    "defense": 8,
+                    "survival": 6,
+                    "aptitude": 8,
+                    "points": 100,
+                    "weapons": [],
+                    "min": 1,
+                    "max": 10,
+                    "rules": [],
+                    "options": [
+                        
+                    ]
+                }
+            ]
+        },
+        "production_gen": {
+            "category": "common",
+            "name": "Production Gen",
+            "description": "All Stats are based on the Prototype and updated between battles",
+            "keywords": [],
+            "models": [
+                {
+                    "name": "Production Gen",
+                    "level": 1,
+                    "speed": 5,
+                    "shooting": 8,
+                    "melee": 8,
+                    "defense": 7,
+                    "survival": 6,
+                    "aptitude": 7,
+                    "points": 100,
+                    "weapons": [],
+                    "min": 1,
+                    "max": 10,
+                    "rules": [],
+                    "options": [
+                        
+                    ]
+                }
+            ]
+        },
+        "last_gen": {
+            "category": "common",
+            "name": "Last Gen",
+            "description": "All Stats are based on the Prototype and updated between battles",
+            "keywords": [],
+            "models": [
+                {
+                    "name": "Last Gen",
+                    "level": 0,
+                    "speed": 4,
+                    "shooting": 7,
+                    "melee": 7,
+                    "defense": 6,
+                    "survival": 6,
+                    "aptitude": 6,
+                    "points": 20,
+                    "weapons": [],
+                    "min": 1,
+                    "max": 10,
+                    "rules": [],
+                    "options": [
+                        
+                    ]
+                }
+            ]
+        },
+        "heavy_variant": {
+            "category": "common",
+            "name": "Heavy Variant",
+            "description": "All Stats are based on the Prototype and updated between battles",
+            "keywords": [],
+            "models": [
+                {
+                    "name": "Heavy Variant",
+                    "level": 2,
+                    "speed": 4,
+                    "shooting": 9,
+                    "melee": 9,
+                    "defense": 15,
+                    "survival": 10,
+                    "aptitude": 7,
+                    "points": 80,
+                    "weapons": [],
+                    "min": 1,
+                    "max": 10,
+                    "rules": [],
+                    "options": [
+                        
+                    ]
+                }
+            ]
+        }
+    },
+    "models": {
+        
+    },
+    "weapons": {
+        
+    },
+    "rules": {
+            },
+    "strategies": {
+        
+    },
+    "relics": {
+        
+    }
+}
