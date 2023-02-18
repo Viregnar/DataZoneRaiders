@@ -24,7 +24,19 @@
       "name": "Common"
     }
   },
-  "organizations": {},
+  "organizations": {
+    "zone_raiders": {
+      "name": "Generalist",
+      "cost": 0,
+      "description": "A well-rounded force for taking on any mission.",
+      "categories": {
+        "common": {
+          "min": 1,
+          "max": 20
+        }
+      }
+    }
+  },
   "relics": {},
   "powerCategories": {},
   "powers": {},
