@@ -10,12 +10,14 @@
       "id": "nthgen",
       "url": "nthgen.json",
       "color": "#0b474a",
-      "alliance": "",
+      "alliance": "zone",
       "description": "I know we are not like your kind, but we have much to offer each other"
     }
   },
   "alliances": {
-    
+    "zone": {
+      "name": "Zone Raiders"
+    }
   },
   "categories": {
     "common": {
