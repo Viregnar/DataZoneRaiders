@@ -40,7 +40,115 @@
   "relics": {},
   "powerCategories": {},
   "powers": {},
-  "weapons": {},
+  "weapons": {
+    "bash": {
+      "name": "Bash",
+      "range": "Melee",
+      "strength": "0",
+      "rules": [
+        "concussive"
+      ]
+    },
+    "scrap_club": {
+      "name": "Scrap Club",
+      "range": "Melee",
+      "strength": "2",
+      "rules": [
+        "concussive"
+      ],
+      "points":5
+    },
+    "mag_cutter": {
+      "name": "Mag Cutter",
+      "range": "Melee",
+      "strength": "3 AP",
+      "rules": [
+      ],
+      "points":5
+    },
+    "electro_rod": {
+      "name": "Electro-Rod",
+      "range": "Melee",
+      "strength": "4 AP",
+      "rules": [
+        "stunning"
+      ],
+      "points": 10
+    },
+    "chaincutter": {
+      "name": "Chaincutter",
+      "range": "Melee",
+      "strength": "4 AP",
+      "rules": [
+        "rupturing"
+      ],
+      "points": 10
+    },
+    "kinetic_gauntlet": {
+      "name": "Kinetic Gauntlet",
+      "range": "Melee",
+      "strength": "5",
+      "rules": [
+        "concussive"
+      ],
+      "points": 15
+    },
+    "thermal_lance": {
+      "name": "Thermal Lance",
+      "range": "Melee",
+      "strength": "4 AP",
+      "rules": [
+        "brutal"
+      ],
+      "points": 20
+    },
+    "industrial_claws": {
+      "name": "Industrial Claws",
+      "range": "Melee",
+      "strength": "6 AP",
+      "rules": [
+      ],
+      "points": 20
+    },
+    "progressive_edge": {
+      "name": "Progressive Edge",
+      "range": "Melee",
+      "strength": "6 AP",
+      "rules": [
+        "grants_counter_attack"
+      ],
+      "points": 25
+    },
+    "slug_gun": {
+      "name": "Slug Gun",
+      "range": "18",
+      "strength": "0",
+      "ammo": "Auto",
+      "rules": [
+      ],
+      "points": 5
+    },
+    "scrap_shotgun": {
+      "name": "Scrap Shotgun",
+      "range": "10",
+      "strength": "3",
+      "ammo": "Auto",
+      "rules": [
+        "short_range"
+      ],
+      "points": 10
+    },
+    "auto_carbine ": {
+      "name": "Auto Carbine ",
+      "range": "12",
+      "strength": "0",
+      "ammo": "Auto",
+      "rules": [
+        "rapid_weapon",{"id":"burst","x":2}
+      ],
+      "points": 10
+    }
+  },
   "rules": {
     "large": {
       "name": "large",
