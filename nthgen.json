@@ -27,7 +27,7 @@
                         "die_hard"
                     ],
                     "options": [
-                        {"addWeapon": [], "limit": 2}
+                        {"addWeapon": [], "limit": 2},
                         {"addArmor": [], "limit": 1}
                     ]
                 }
@@ -57,7 +57,7 @@
                         "synthetic_datalink"
                     ],
                     "options": [
-                        {"addWeapon": [], "limit": 2}
+                        {"addWeapon": [], "limit": 2},
                         {"addArmor": [], "limit": 1}
                     ]
                 }
@@ -86,7 +86,7 @@
                         "synthetic_datalink"
                     ],
                     "options": [
-                        {"addWeapon": [], "limit": 2}
+                        {"addWeapon": [], "limit": 2},
                         {"addArmor": [], "limit": 1}
                     ]
                 }
@@ -115,7 +115,7 @@
                         "synthetic_datalink"
                     ],
                     "options": [
-                        {"addWeapon": [], "limit": 2}
+                        {"addWeapon": [], "limit": 2},
                         {"addArmor": [], "limit": 1}
                     ]
                 }
