@@ -24,26 +24,27 @@
       "name": "Common"
     }
   },
-  "organizations": {
-  
-  },
-  "relics": {
-    
-  },
-  "powerCategories": {
-    
-  },
-  "powers": {
-    
-  },
-  "weapons": {
-    
-  },
+  "organizations": {},
+  "relics": {},
+  "powerCategories": {},
+  "powers": {},
+  "weapons": {},
   "rules": {
-    
+    "large": {
+      "name": "large",
+      "description": "Size profil is Large",
+      "points": 0
+    },
+    "braced": {
+      "name": "Braced",
+      "description": "This model cannot be moved by enemy attacks or the concussive weapon ability. It is immune to the Stunning weapon ability.",
+      "points": 0
+    },
+    "tactical_sense": {
+      "name": "Tactical Sense ",
+      "description": "This model generates 2 Command Points in the Preparation Phase if it is the Mission Leader.",
+      "points": 0
+    }
   },
-  "units": {
-    
-    
-  }
+  "units": {}
 }
