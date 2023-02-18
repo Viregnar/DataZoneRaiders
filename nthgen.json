@@ -139,6 +139,28 @@
         }
     },
     "models": {},
+    "armors": {
+        "integral_armor_configuration ": {
+            "name": "Integral Armor Configuration",
+            "defense_bonus": 2,
+            "survival_bonus": 2,
+            "mobility_actions": "Wallrun, Dash",
+            "rules": [
+                "armor_failure"
+            ],
+            "points": 20
+        },
+        "resilience_armor_configuration": {
+            "name": "Resilience Armor Configuration",
+            "defense_bonus": 8,
+            "survival_bonus": 0,
+            "mobility_actions": "Wallrun",
+            "rules": [
+                "die_hard"
+            ],
+            "points": 70
+        }
+    },
     "weapons": {
         "rapid_kinetic_weapon": {
             "name": "Rapid Kinetic Weapon",
@@ -160,7 +182,8 @@
             "strength": "6 AP",
             "ammo": "1",
             "rules": [
-                "primary_weapon","beam"
+                "primary_weapon",
+                "beam"
             ],
             "points": 55
         },

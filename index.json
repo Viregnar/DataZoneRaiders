@@ -56,15 +56,14 @@
       "rules": [
         "concussive"
       ],
-      "points":5
+      "points": 5
     },
     "mag_cutter": {
       "name": "Mag Cutter",
       "range": "Melee",
       "strength": "3 AP",
-      "rules": [
-      ],
-      "points":5
+      "rules": [],
+      "points": 5
     },
     "electro_rod": {
       "name": "Electro-Rod",
@@ -106,8 +105,7 @@
       "name": "Industrial Claws",
       "range": "Melee",
       "strength": "6 AP",
-      "rules": [
-      ],
+      "rules": [],
       "points": 20
     },
     "progressive_edge": {
@@ -124,8 +122,7 @@
       "range": "18",
       "strength": "0",
       "ammo": "Auto",
-      "rules": [
-      ],
+      "rules": [],
       "points": 5
     },
     "scrap_shotgun": {
@@ -144,9 +141,126 @@
       "strength": "0",
       "ammo": "Auto",
       "rules": [
-        "rapid_weapon",{"id":"burst","x":2}
+        "rapid_weapon",
+        {
+          "id": "burst",
+          "x": 2
+        }
       ],
       "points": 10
+    }
+  },
+  "armors": {
+    "survival_suit ": {
+      "name": "Survival Suit",
+      "defense_bonus": 0,
+      "survival_bonus": 4,
+      "mobility_actions": "",
+      "points": 5
+    },
+    "gantry_runner_rig": {
+      "name": "Gantry Runner Rig",
+      "defense_bonus": 2,
+      "survival_bonus": 0,
+      "mobility_actions": "Leap",
+      "rules": [
+        {
+          "id": "speed_modifier",
+          "x": 1
+        }
+      ],
+      "points": 10
+    },
+    "excursion_rig": {
+      "name": "Excursion Rig",
+      "defense_bonus": 2,
+      "survival_bonus": 2,
+      "mobility_actions": "Wallrun, Leap",
+      "points": 10
+    },
+    "skirmisher_frame": {
+      "name": "Skirmisher Frame",
+      "defense_bonus": 4,
+      "survival_bonus": 2,
+      "mobility_actions": "Grapple, Wallrun",
+      "points": 20
+    },
+    "mobility_frame": {
+      "name": "Mobility Frame",
+      "defense_bonus": 3,
+      "survival_bonus": 2,
+      "mobility_actions": "Grapple, Wallrun, Leap",
+      "rules": [
+        {
+          "id": "speed_modifier",
+          "x": 1
+        }
+      ],
+      "points": 30
+    },
+    "light_carapace": {
+      "name": "Light Carapace",
+      "defense_bonus": 5,
+      "survival_bonus": 2,
+      "mobility_actions": "Wallrun",
+      "rules": [],
+      "points": 20
+    },
+    "armored_carapace": {
+      "name": "Armored Carapace",
+      "defense_bonus": 7,
+      "survival_bonus": 2,
+      "mobility_actions": "",
+      "rules": [],
+      "points": 40
+    },
+    "hazard_suit": {
+      "name": "Hazard Suit",
+      "defense_bonus": 3,
+      "survival_bonus": 4,
+      "mobility_actions": "Wallrun",
+      "rules": [
+        "survival_vs_hazards"
+      ],
+      "points": 25
+    },
+    "armored_hazard_suit": {
+      "name": "Armored Hazard Suit",
+      "defense_bonus": 6,
+      "survival_bonus": 4,
+      "mobility_actions": "Wallrun",
+      "rules": [
+        "survival_vs_hazards"
+      ],
+      "points": 50
+    },
+    "light_exoskeleton": {
+      "name": "Light Exoskeleton",
+      "defense_bonus": 7,
+      "survival_bonus": 0,
+      "mobility_actions": "Leap",
+      "rules": [
+        {
+          "id": "speed_modifier",
+          "x": 1
+        },
+        "lose_bulky"
+      ],
+      "points": 45
+    },
+    "mechanized_exoskeleton ": {
+      "name": "Mechanized Exoskeleton",
+      "defense_bonus": 10,
+      "survival_bonus": 0,
+      "mobility_actions": "Leap",
+      "rules": [
+        {
+          "id": "speed_modifier",
+          "x": 1
+        },
+        "lose_bulky","large"
+      ],
+      "points": 20
     }
   },
   "rules": {
@@ -486,9 +600,24 @@
       ],
       "points": 0
     },
-    "": {
-      "name": "",
-      "description": "",
+    "speed_modifier": {
+      "name": "Speed Modifier",
+      "description": "This unit must take (x) modifier of speed.",
+      "prerequis": "",
+      "inputs": [
+        "x"
+      ],
+      "points": 0
+    },
+    "lose_bulky": {
+      "name": "Weapons lose ‘Bulky’",
+      "description": "Unity Weapons Loses Bulky Ruler",
+      "prerequis": "",
+      "points": 0
+    },
+    "survival_vs_hazards": {
+      "name": "+2 Survival vs Hazards",
+      "description": "+2 Survival vs Hazards",
       "prerequis": "",
       "points": 0
     }
