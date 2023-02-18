@@ -26,7 +26,10 @@
                         "synthetic_datalink",
                         "die_hard"
                     ],
-                    "options": []
+                    "options": [
+                        {"addWeapon": [], "limit": 2}
+                        {"addArmor": [], "limit": 1}
+                    ]
                 }
             ]
         },
@@ -47,13 +50,16 @@
                     "aptitude": 8,
                     "points": 60,
                     "min": 1,
-                    "max": 10,
+                    "max": 1,
                     "rules": [
                         "nthgen",
                         "tactical_sense",
                         "synthetic_datalink"
                     ],
-                    "options": []
+                    "options": [
+                        {"addWeapon": [], "limit": 2}
+                        {"addArmor": [], "limit": 1}
+                    ]
                 }
             ]
         },
@@ -74,12 +80,15 @@
                     "aptitude": 7,
                     "points": 40,
                     "min": 1,
-                    "max": 10,
+                    "max": 1,
                     "rules": [
                         "nthgen",
                         "synthetic_datalink"
                     ],
-                    "options": []
+                    "options": [
+                        {"addWeapon": [], "limit": 2}
+                        {"addArmor": [], "limit": 1}
+                    ]
                 }
             ]
         },
@@ -100,12 +109,15 @@
                     "aptitude": 6,
                     "points": 20,
                     "min": 1,
-                    "max": 10,
+                    "max": 1,
                     "rules": [
                         "nthgen",
                         "synthetic_datalink"
                     ],
-                    "options": []
+                    "options": [
+                        {"addWeapon": [], "limit": 2}
+                        {"addArmor": [], "limit": 1}
+                    ]
                 }
             ]
         },
@@ -126,14 +138,16 @@
                     "aptitude": 7,
                     "points": 80,
                     "min": 1,
-                    "max": 10,
+                    "max": 1,
                     "rules": [
                         "nthgen",
                         "braced",
                         "large",
                         "synthetic_datalink"
                     ],
-                    "options": []
+                    "options": [
+                        {"addWeapon": [], "limit": 2}
+                    ]
                 }
             ]
         }
