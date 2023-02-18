@@ -25,12 +25,12 @@
                         "tactical_sense",
                         "synthetic_datalink",
                         "die_hard"
-                    ],
-                    "options": [
-                        {"addWeapon": [], "limit": 2},
-                        {"addArmor": [], "limit": 1}
                     ]
                 }
+            ],
+            "options": [
+                {"addWeapon": [], "limit": 2},
+                {"addArmor": [], "limit": 1}
             ]
         },
         "next_gen": {
@@ -55,12 +55,12 @@
                         "nthgen",
                         "tactical_sense",
                         "synthetic_datalink"
-                    ],
-                    "options": [
-                        {"addWeapon": [], "limit": 2},
-                        {"addArmor": [], "limit": 1}
                     ]
                 }
+            ],
+            "options": [
+                {"addWeapon": [], "limit": 2},
+                {"addArmor": [], "limit": 1}
             ]
         },
         "production_gen": {
@@ -84,12 +84,12 @@
                     "rules": [
                         "nthgen",
                         "synthetic_datalink"
-                    ],
-                    "options": [
-                        {"addWeapon": [], "limit": 2},
-                        {"addArmor": [], "limit": 1}
                     ]
                 }
+            ],
+            "options": [
+                {"addWeapon": [], "limit": 2},
+                {"addArmor": [], "limit": 1}
             ]
         },
         "last_gen": {
@@ -113,12 +113,12 @@
                     "rules": [
                         "nthgen",
                         "synthetic_datalink"
-                    ],
-                    "options": [
-                        {"addWeapon": [], "limit": 2},
-                        {"addArmor": [], "limit": 1}
                     ]
                 }
+            ],
+            "options": [
+                {"addWeapon": [], "limit": 2},
+                {"addArmor": [], "limit": 1}
             ]
         },
         "heavy_variant": {
@@ -144,11 +144,12 @@
                         "braced",
                         "large",
                         "synthetic_datalink"
-                    ],
-                    "options": [
-                        {"addWeapon": [], "limit": 2}
                     ]
                 }
+            ],
+            "options": [
+                {"addWeapon": [], "limit": 2},
+                {"addArmor": [], "limit": 1}
             ]
         }
     },
