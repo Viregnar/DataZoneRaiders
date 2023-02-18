@@ -22,7 +22,7 @@
                     "weapons": [],
                     "min": 1,
                     "max": 1,
-                    "rules": ["tactical_sense"],
+                    "rules": ["tactical_sense","synthetic_datalink","die_hard"],
                     "options": []
                 }
             ]
@@ -46,7 +46,7 @@
                     "weapons": [],
                     "min": 1,
                     "max": 10,
-                    "rules": ["nthgen","tactical_sense"],
+                    "rules": ["nthgen","tactical_sense","synthetic_datalink"],
                     "options": []
                 }
             ]
@@ -70,7 +70,7 @@
                     "weapons": [],
                     "min": 1,
                     "max": 10,
-                    "rules": ["nthgen"],
+                    "rules": ["nthgen","synthetic_datalink"],
                     "options": []
                 }
             ]
@@ -94,7 +94,7 @@
                     "weapons": [],
                     "min": 1,
                     "max": 10,
-                    "rules": ["nthgen"],
+                    "rules": ["nthgen","synthetic_datalink"],
                     "options": []
                 }
             ]
@@ -119,7 +119,7 @@
                     "min": 1,
                     "max": 10,
                     "rules": [
-                        "nthgen","braced","large"
+                        "nthgen","braced","large","synthetic_datalink"
                     ],
                     "options": []
                 }
@@ -132,6 +132,11 @@
         "nthgen": {
             "name": "NTHGEN",
             "description": "All Stats are based on the Prototype and updated between battles",
+            "points": 0
+        },
+        "synthetic_datalink": {
+            "name": "SYNTHETIC DATALINK",
+            "description": "All nthgen models may perform the interface action",
             "points": 0
         }
     },

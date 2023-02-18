@@ -11,7 +11,7 @@
       "url": "nthgen.json",
       "color": "#0b474a",
       "alliance": "zone",
-      "description": "I know we are not like your kind, but we have much to offer each other"
+      "description": "A NTHGEN TEAM MUST ALWAYS HAVE A PROTOTYPE, EVEN IF IT IS NOT DEPLOYED TO BATTLE. THE ENTIRE TEAM’S STATS ARE UPDATED BASED ON THE PROTOTYPE’S STATLINE AT THE START OF A BATTLE. WHEN THE PROTOTYPE IS DESTROYED, A NEW ONE MUST BE PAID FOR IMMEDIATELY DURING THE AFTER-MISSION. IF THE REPLACEMENT CANNOT BE AFFORDED, REMOVE 2 EXISTING UNITS FROM THE ROSTER AND LOSE ALL RU TO GAIN A NEW PROTOTYPE. "
     }
   },
   "alliances": {
@@ -53,8 +53,233 @@
       "points": 0
     },
     "tactical_sense": {
-      "name": "Tactical Sense ",
+      "name": "Tactical Sense",
       "description": "This model generates 2 Command Points in the Preparation Phase if it is the Mission Leader.",
+      "prerequis": "Tactics 2",
+      "points": 0
+    },
+    "catfall": {
+      "name": "Catfall",
+      "description": "This model ignores fall damage for falls of distances up to its speed stat.",
+      "points": 0
+    },
+    "counter_attack": {
+      "name": "Counter Attack",
+      "description": "When missed by an enemy melee attack, this model may immediately make a free melee attack targeting the enemy model that missed instead of moving",
+      "points": 0
+    },
+    "sentry": {
+      "name": "Sentry",
+      "description": "This model ignores the attack penalty for Overwatch Fire.",
+      "points": 0
+    },
+    "dodger": {
+      "name": "Dodger",
+      "description": "When this model performs only movement actions during its activation, it may Hunker Down automatically at the end of the activation.",
+      "points": 0
+    },
+    "fire_coordinator": {
+      "name": "Fire Coordinator",
+      "description": "+4 to Mark Target aptitude checks",
+      "points": 0
+    },
+    "dual_wield": {
+      "name": "Dual Wield",
+      "description": "This model may attack with two secondary Ranged weapons as a single Shooting attack action. They may target different models.",
+      "points": 0
+    },
+    "heads_down": {
+      "name": "Heads Down",
+      "description": "This model improves its cover modifier against enemy attacks from -2 to -4.",
+      "points": 0
+    },
+    "flanker": {
+      "name": "Flanker",
+      "description": "This model gains a further +2 bonus to Shooting attacks and Shooting attack strength when attacking a target that is affected by Crossfire or Point-Blank bonuses.",
+      "points": 0
+    },
+    "pistoleer": {
+      "name": "Pistoleer",
+      "description": "This model’s non-grenade secondary Ranged weapons gain +4 Range",
+      "points": 0
+    },
+    "ambidextrous": {
+      "name": "Ambidextrous",
+      "description": "This model may equip two melee weapons and attack once with each weapon. The second attack chosen is at a -4 Penalty",
+      "points": 0
+    },
+    "tech_affinity": {
+      "name": "Tech Affinity",
+      "description": "Interface and Mark Target actions are at +2 Aptitude. This model may use Interface Action.",
+      "prerequis": "Tech 2",
+      "points": 0
+    },
+    "dataplane_navigator": {
+      "name": "Dataplane Navigator",
+      "description": "After this model performs an interface action with a DataNode, you may spend a Command Point. If you do so, the DataNode can be still be used instead of shutting down.",
+      "prerequis": "Tech 2, Level 3",
+      "points": 0
+    },
+    "fast_loader": {
+      "name": "Fast Loader",
+      "description": "This unit automatically removes all Out of Ammo tokens if it did not make any attacks this activation.",
+      "prerequis": "Tech 2",
+      "points": 0
+    },
+    "fixer": {
+      "name": "Fixer",
+      "description": "This model gains Repair Action: Make an Aptitude check. On a success, remove Armor Failure from itself or a friendly model in base contact. ",
+      "prerequis": "Tech 4",
+      "points": 0
+    },
+    "signals_warrior": {
+      "name": "Signals Warrior",
+      "description": "This model cannot be affected by enemy Mark Target actions. The model may use a Tech Jammer item without spending a Battery Token or Command Points.",
+      "prerequis": "Tech 4, Level 3",
+      "points": 0
+    },
+    "breacher": {
+      "name": "Breacher",
+      "description": "This model may take the Action: Breaching Shot: Make a Shooting Attack at -4. On a hit, the attack does no damage but automatically inflicts Armor Failure. ",
+      "prerequis": "Tech 6, Level 3",
+      "points": 0
+    },
+    "bombardier": {
+      "name": "Bombardier",
+      "description": "Grenades used by this model gain +4 range.",
+      "prerequis": "Tech 6, Level 3",
+      "points": 0
+    },
+    "ballistic_trace": {
+      "name": "Ballistic Trace",
+      "description": "Enemies that miss this target with a Shooting attack are automatically Marked.",
+      "prerequis": "Tech 4, Level 3",
+      "points": 0
+    },
+    "medic": {
+      "name": "Medic",
+      "description": "This model gains +4 on aptitude checks for Heal actions.",
+      "prerequis": "Bio 2",
+      "points": 0
+    },
+    "elusive": {
+      "name": "Elusive",
+      "description": "This model can never be targeted by enemy Overwatch.",
+      "prerequis": "Bio 2",
+      "points": 0
+    },
+    "fast_striker": {
+      "name": "Fast Striker",
+      "description": "This model ignores multiple opponent penalty in melee and never triggers counter-attack.",
+      "prerequis": "Bio 2",
+      "points": 0
+    },
+    "brute_force ": {
+      "name": "Brute Force ",
+      "description": "This model’s melee power attacks gain the Concussive weapon ability and +2 Strength",
+      "prerequis": "Bio 2",
+      "points": 0
+    },
+    "die_hard": {
+      "name": "Die Hard",
+      "description": "Failed damage checks no longer cause this model to go Down. Instead, the model suffers 2 wounds.",
+      "prerequis": "Bio 4",
+      "points": 0
+    },
+    "tough": {
+      "name": "Tough",
+      "description": "This model may ignore penalties and effects suffered from its first wound.",
+      "prerequis": "Bio 4, Level 3",
+      "points": 0
+    },
+    "headshot": {
+      "name": "Headshot",
+      "description": "Enemies Taken Out by this model’s Shooting attacks are Eliminated instead of Downed",
+      "prerequis": "Bio 4",
+      "points": 0
+    },
+    "quickdraw": {
+      "name": "Quickdraw",
+      "description": "Firing a secondary Ranged weapon no longer ends the turn.",
+      "prerequis": "Bio 6, Level 3",
+      "points": 0
+    },
+    "showdown": {
+      "name": "Showdown",
+      "description": "This model may make an attack on every enemy model within 6 inches when using a Secondary Weapon",
+      "prerequis": "Bio 6, Level 3",
+      "points": 0
+    },
+    "nerves_of_steel": {
+      "name": "Nerves of Steel",
+      "description": "This Model ignores its first Suppression Token",
+      "prerequis": "Bio 6",
+      "points": 0
+    },
+    "tactical_directive": {
+      "name": "Tactical Directive",
+      "description": "This model generates 3 Command Points in the Preparation Phase if it is the Mission Leader Replaces Tactical Sense.",
+      "prerequis": "Tactical Sense, Tactics 4, Level 3",
+      "points": 0
+    },
+    "tactical_mastery": {
+      "name": "Tactical Mastery",
+      "description": "This model generates 4 Command Points in the Preparation Phase if it is the Mission Leader Replaces Tactical Directive.",
+      "prerequis": "Tactical Directive, Tactics 6, Level 5",
+      "points": 0
+    },
+    "assaulter": {
+      "name": "Assaulter",
+      "description": "Spend a Command Point: This unit may make a free action Shooting attack at the end of any activation in which all it did was make movement actions.",
+      "prerequis": "Tactics 2",
+      "points": 0
+    },
+    "forward_positioning": {
+      "name": "This model may be deployed up to 6 inches beyond its normal deployment area for the mission",
+      "description": "Tactics 2",
+      "prerequis": "",
+      "points": 0
+    },
+    "stealth": {
+      "name": "Stealth",
+      "description": "This model cannot be targeted by enemy attacks or actions from over 12 inches away. The model loses all benefits of stealth after it is targeted or it makes a Shooting attack. ",
+      "prerequis": "Tactics 2",
+      "points": 0
+    },
+    "snap_fire": {
+      "name": "Snap Fire",
+      "description": "After being missed by an enemy Shooting attack, this model may immediately make a Primary Weapon Shooting attack back at the attacker as if using Overwatch. Gain an Out of Ammo token.",
+      "prerequis": "Tactics 4",
+      "points": 0
+    },
+    "firebase": {
+      "name": "Firebase",
+      "description": "This model does not gain Out of Ammo tokens when performing Suppression Fire",
+      "prerequis": "Tactics 4",
+      "points": 0
+    },
+    "guardian": {
+      "name": "Guardian",
+      "description": "This model grants Cover to friendly models in Base Contact",
+      "prerequis": "Tactics 4",
+      "points": 0
+    },
+    "superior_stealth": {
+      "name": "Superior Stealth",
+      "description": "This model cannot be targeted by enemy attacks or actions from over 8 inches away. The model loses all benefits of Superior Stealth after it is targeted or it makes a Shooting attack. Replaces Stealth.",
+      "prerequis": "Tactics 6, Stealth",
+      "points": 0
+    },
+    "killer_instinct": {
+      "name": "Killer Instinct",
+      "description": "This model restores 1 Wound when it takes out an enemy with any attack.",
+      "prerequis": "Tactics 6",
+      "points": 0
+    },
+    "skirmisher": {
+      "name": "Skirmisher",
+      "description": "Making a Shooting attack no longer ends the turn for this model. It may not make another Shooting attack this turn with that weapon unless it is using weapon with the Rapid Weapon ability. ",
+      "prerequis": "Tactics 6, Level 3",
       "points": 0
     }
   },
