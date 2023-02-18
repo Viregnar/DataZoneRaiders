@@ -281,7 +281,109 @@
       "description": "Making a Shooting attack no longer ends the turn for this model. It may not make another Shooting attack this turn with that weapon unless it is using weapon with the Rapid Weapon ability. ",
       "prerequis": "Tactics 6, Level 3",
       "points": 0
+    },
+    "primary_weapon": {
+      "name": "Primary Weapon",
+      "description": "",
+      "prerequis": "",
+      "points": 0
+    },
+    "sustained_burst": {
+      "name": "Sustained Burst",
+      "description": "This Weapon may make Burst(x) attack but does not become Out of Ammo afterwards.",
+      "prerequis": "",
+      "inputs": [
+        "x"
+      ],
+      "points": 0
+    },
+    "rapid_weapon": {
+      "name": "Rapid Weapon",
+      "description": "Attacks made with this weapon do not end the activation",
+      "prerequis": "",
+      "points": 0
+    },
+    "bulky": {
+      "name": "Bulky",
+      "description": "This weapon cannot make Shooting attacks, aimed attacks or be used in overwatch on turns in which the model has taken a movement action. Using this weapon requires all remaining actions. ",
+      "prerequis": "",
+      "points": 0
+    },
+    "short_range": {
+      "name": "Short Range",
+      "description": " Cannot make attacks beyond the listed effective range.",
+      "prerequis": "",
+      "points": 0
+    },
+    "blast": {
+      "name": "Blast",
+      "description": "On Hit: creates blast radius of AoE(x), all units within the blast are affected by the weapon.",
+      "prerequis": "",
+      "inputs": [
+        "x"
+      ],
+      "points": 0
+    },
+    "beam": {
+      "name": "Beam",
+      "description": " When making a Shooting attack, make a separate attack roll against each model along a straight line to the target and within line of sight.",
+      "prerequis": "",
+      "points": 0
+    },
+    "stunning": {
+      "name": "Stunning",
+      "description": "On Damage: Target wounded by this weapon lose an action from their next activation ",
+      "prerequis": "",
+      "points": 0
+    },
+    "concussive": {
+      "name": "Concussive",
+      "description": "On Hit: Target is pushed directly back 2 inches. May potentially trigger falls. ",
+      "prerequis": "",
+      "points": 0
+    },
+    "rupturing": {
+      "name": "Rupturing",
+      "description": "On Damage: Target that is damaged by this weapon suffers 2 wounds instead of 1.",
+      "prerequis": "",
+      "points": 0
+    },
+    "burst": {
+      "name": "Burst",
+      "description": "This weapon may make (x) attacks when used. Burst Attacks may be split amongst enemy targets within 2 inches of each other. After making a Burst attack, gain an Out of Ammo token. ",
+      "prerequis": "",
+      "inputs": [
+        "x"
+      ],
+      "points": 0
+    },
+    "brutal": {
+      "name": "Brutal",
+      "description": "On Hit: Successful hits by this weapon immediately causes the target to suffer a wound.",
+      "prerequis": "",
+      "points": 0
+    },
+    "ignores_cover": {
+      "name": "Ignores Cover",
+      "description": "This weapon ignores cover when making a Shooting attack. ",
+      "prerequis": "",
+      "points": 0
+    },
+    "grants_counter_attack": {
+      "name": "Grants Counter-Attack",
+      "description": "Grants Counter-Attack +x Bonus to Melee Attack Roll",
+      "prerequis": "",
+      "inputs": [
+        "x"
+      ],
+      "points": 0
+    },
+    "": {
+      "name": "",
+      "description": "",
+      "prerequis": "",
+      "points": 0
     }
   },
   "units": {}
-}
+}   

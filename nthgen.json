@@ -22,7 +22,11 @@
                     "weapons": [],
                     "min": 1,
                     "max": 1,
-                    "rules": ["tactical_sense","synthetic_datalink","die_hard"],
+                    "rules": [
+                        "tactical_sense",
+                        "synthetic_datalink",
+                        "die_hard"
+                    ],
                     "options": []
                 }
             ]
@@ -46,7 +50,11 @@
                     "weapons": [],
                     "min": 1,
                     "max": 10,
-                    "rules": ["nthgen","tactical_sense","synthetic_datalink"],
+                    "rules": [
+                        "nthgen",
+                        "tactical_sense",
+                        "synthetic_datalink"
+                    ],
                     "options": []
                 }
             ]
@@ -70,7 +78,10 @@
                     "weapons": [],
                     "min": 1,
                     "max": 10,
-                    "rules": ["nthgen","synthetic_datalink"],
+                    "rules": [
+                        "nthgen",
+                        "synthetic_datalink"
+                    ],
                     "options": []
                 }
             ]
@@ -94,7 +105,10 @@
                     "weapons": [],
                     "min": 1,
                     "max": 10,
-                    "rules": ["nthgen","synthetic_datalink"],
+                    "rules": [
+                        "nthgen",
+                        "synthetic_datalink"
+                    ],
                     "options": []
                 }
             ]
@@ -119,7 +133,10 @@
                     "min": 1,
                     "max": 10,
                     "rules": [
-                        "nthgen","braced","large","synthetic_datalink"
+                        "nthgen",
+                        "braced",
+                        "large",
+                        "synthetic_datalink"
                     ],
                     "options": []
                 }
@@ -127,7 +144,48 @@
         }
     },
     "models": {},
-    "weapons": {},
+    "weapons": {
+        "rapid_kinetic_weapon": {
+            "name": "Rapid Kinetic Weapon",
+            "range": "18",
+            "strength": "2",
+            "ammo": "Auto",
+            "rules": [
+                "primary_weapon",
+                {
+                    "id": "sustained_burst",
+                    "x": 2
+                }
+            ],
+            "points": 40
+        },
+        "optimal_photon_cannon": {
+            "name": "Optimal Photon Cannon",
+            "range": "24",
+            "strength": "6 AP",
+            "ammo": "1",
+            "rules": [
+                "primary_weapon","beam"
+            ],
+            "points": 55
+        },
+        "electro_defense_mesh": {
+            "name": "Electro-Defense Mesh",
+            "range": "Melee",
+            "strength": "0 AP",
+            "rules": [
+                "primary_weapon",
+                "concussive",
+                "stunning",
+                "primary_weapon",
+                {
+                    "id": "grants_counter_attack",
+                    "x": 4
+                }
+            ],
+            "points": 15
+        }
+    },
     "rules": {
         "nthgen": {
             "name": "NTHGEN",
