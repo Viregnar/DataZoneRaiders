@@ -393,17 +393,17 @@
         "secure_datalink": {
             "name": "Secure Datalink",
             "description": "While the model carrying it is Active, the team is immune to the effects of Tech Jammer Equipment while within 18 inches of the Secure Datalink. Gain +4 to Interface Aptitude Checks.",
-            "cost": 20
+            "points": 20
         },
         "situation_processor": {
             "name": "Situation Processor",
             "description": "2 Actions: When this model can see at least one enemy model, it may grant a single action to any friendly model that must be used immediately. This does not count as their activation.",
-            "cost": 35
+            "points": 35
         },
         "neuralgrid_backup": {
             "name": "Neuralgrid Backup",
-            "description": "When this model is killed, it can be resurrected with all skills and stats kept by paying its initial recruiting cost, though equipment may still be lost.",
-            "cost": 50
+            "description": "When this model is killed, it can be resurrected with all skills and stats kept by paying its initial recruiting points, though equipment may still be lost.",
+            "points": 50
         }
     },
     "strategies": {}
