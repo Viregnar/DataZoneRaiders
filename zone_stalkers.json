@@ -1,0 +1,449 @@
+{
+    "id": "zone_stalkers",
+    "name": "ZONE STALKERS",
+    "author": "Jonathan Ulveling",
+    "units": {
+        "zone_warden": {
+            "category": "common",
+            "name": "Zone Warden",
+            "description": "",
+            "keywords": [],
+            "models": [
+                {
+                    "name": "Zone Warden",
+                    "level": 3,
+                    "speed": 5,
+                    "shooting": 11,
+                    "melee": 10,
+                    "defense": 4,
+                    "survival": 9,
+                    "aptitude": 10,
+                    "points": 80,
+                    "min": 1,
+                    "max": 1,
+                    "rules": [
+                        "ambush_tactics",
+                        "stealth",
+                        "skirmisher"
+                    ]
+                }
+            ],
+            "options": [
+                {
+                    "addWeapon": [],
+                    "limit": 2
+                },
+                {
+                    "addArmor": [],
+                    "limit": 1
+                },
+                {
+                    "addRule": [
+                        "explosive_trap",
+                        "self_replenishing_smoke",
+                        "rangefinder_scope",
+                        "spare_battery",
+                        "ballistic_optics",
+                        "auto_reloader",
+                        "defense_matrix",
+                        "smoke_canister",
+                        "interface_deck",
+                        "cutter_tools",
+                        "trauma_kit",
+                        "nano_infusion",
+                        "comms_uplink",
+                        "tech_jammer",
+                        "magnetic_boots",
+                        "compressed_rations",
+                        "hazard_inoculation",
+                        "hardLight_emitter",
+                        "scouting_sensor",
+                        "descent_harness",
+                        "alloy_shield"
+                    ],
+                    "limit": 3
+                }
+            ]
+        },
+        "scout_stalker": {
+            "category": "common",
+            "name": "Scout Stalker",
+            "description": "",
+            "keywords": [],
+            "models": [
+                {
+                    "name": "Scout Stalker",
+                    "level": 1,
+                    "speed": 5,
+                    "shooting": 9,
+                    "melee": 8,
+                    "defense": 4,
+                    "survival": 8,
+                    "aptitude": 8,
+                    "points": 40,
+                    "min": 1,
+                    "max": 1,
+                    "rules": [
+                        "ambush_tactics",
+                        "stealth"
+                    ]
+                }
+            ],
+            "options": [
+                {
+                    "addWeapon": [],
+                    "limit": 2
+                },
+                {
+                    "addArmor": [],
+                    "limit": 1
+                },
+                {
+                    "addRule": [
+                        "explosive_trap",
+                        "self_replenishing_smoke",
+                        "rangefinder_scope",
+                        "spare_battery",
+                        "ballistic_optics",
+                        "auto_reloader",
+                        "defense_matrix",
+                        "smoke_canister",
+                        "interface_deck",
+                        "cutter_tools",
+                        "trauma_kit",
+                        "nano_infusion",
+                        "comms_uplink",
+                        "tech_jammer",
+                        "magnetic_boots",
+                        "compressed_rations",
+                        "hazard_inoculation",
+                        "hardLight_emitter",
+                        "scouting_sensor",
+                        "descent_harness",
+                        "alloy_shield"
+                    ],
+                    "limit": 3
+                }
+            ]
+        },
+        "trespasser": {
+            "category": "common",
+            "name": "Trespasser",
+            "description": "",
+            "keywords": [],
+            "models": [
+                {
+                    "name": "Trespasser",
+                    "level": 1,
+                    "speed": 5,
+                    "shooting": 7,
+                    "melee": 12,
+                    "defense": 4,
+                    "survival": 8,
+                    "aptitude": 6,
+                    "points": 30,
+                    "min": 1,
+                    "max": 1,
+                    "rules": [
+                        "ambush_tactics",
+                        "stealth",
+                        "counter_attack"
+                    ]
+                }
+            ],
+            "options": [
+                {
+                    "addWeapon": [],
+                    "limit": 2
+                },
+                {
+                    "addArmor": [],
+                    "limit": 1
+                },
+                {
+                    "addRule": [
+                        "explosive_trap",
+                        "self_replenishing_smoke",
+                        "rangefinder_scope",
+                        "spare_battery",
+                        "ballistic_optics",
+                        "auto_reloader",
+                        "defense_matrix",
+                        "smoke_canister",
+                        "interface_deck",
+                        "cutter_tools",
+                        "trauma_kit",
+                        "nano_infusion",
+                        "comms_uplink",
+                        "tech_jammer",
+                        "magnetic_boots",
+                        "compressed_rations",
+                        "hazard_inoculation",
+                        "hardLight_emitter",
+                        "scouting_sensor",
+                        "descent_harness",
+                        "alloy_shield"
+                    ],
+                    "limit": 3
+                }
+            ]
+        },
+        "jaeger": {
+            "category": "common",
+            "name": "Jaeger",
+            "description": "",
+            "keywords": [],
+            "models": [
+                {
+                    "name": "Jaeger",
+                    "level": 3,
+                    "speed": 5,
+                    "shooting": 10,
+                    "melee": 10,
+                    "defense": 4,
+                    "survival": 9,
+                    "aptitude": 8,
+                    "points": 80,
+                    "min": 1,
+                    "max": 1,
+                    "rules": [
+                        "ambush_tactics",
+                        "superior_stealth",
+                        "fire_coordinator"
+                    ]
+                }
+            ],
+            "options": [
+                {
+                    "addWeapon": [],
+                    "limit": 2
+                },
+                {
+                    "addArmor": [],
+                    "limit": 1
+                },
+                {
+                    "addRule": [
+                        "explosive_trap",
+                        "self_replenishing_smoke",
+                        "rangefinder_scope",
+                        "spare_battery",
+                        "ballistic_optics",
+                        "auto_reloader",
+                        "defense_matrix",
+                        "smoke_canister",
+                        "interface_deck",
+                        "cutter_tools",
+                        "trauma_kit",
+                        "nano_infusion",
+                        "comms_uplink",
+                        "tech_jammer",
+                        "magnetic_boots",
+                        "compressed_rations",
+                        "hazard_inoculation",
+                        "hardLight_emitter",
+                        "scouting_sensor",
+                        "descent_harness",
+                        "alloy_shield"
+                    ],
+                    "limit": 3
+                }
+            ]
+        },
+        "troubleshooter": {
+            "category": "common",
+            "name": "Troubleshooter",
+            "description": "",
+            "keywords": [],
+            "models": [
+                {
+                    "name": "Troubleshooter",
+                    "level": 2,
+                    "speed": 5,
+                    "shooting": 8,
+                    "melee": 10,
+                    "defense": 6,
+                    "survival": 7,
+                    "aptitude": 8,
+                    "points": 60,
+                    "min": 1,
+                    "max": 1,
+                    "rules": [
+                        "ambush_tactics",
+                        "stealth",
+                        "tech_affinity"
+                    ]
+                }
+            ],
+            "options": [
+                {
+                    "addWeapon": [],
+                    "limit": 2
+                },
+                {
+                    "addArmor": [],
+                    "limit": 1
+                },
+                {
+                    "addRule": [
+                        "explosive_trap",
+                        "self_replenishing_smoke",
+                        "rangefinder_scope",
+                        "spare_battery",
+                        "ballistic_optics",
+                        "auto_reloader",
+                        "defense_matrix",
+                        "smoke_canister",
+                        "interface_deck",
+                        "cutter_tools",
+                        "trauma_kit",
+                        "nano_infusion",
+                        "comms_uplink",
+                        "tech_jammer",
+                        "magnetic_boots",
+                        "compressed_rations",
+                        "hazard_inoculation",
+                        "hardLight_emitter",
+                        "scouting_sensor",
+                        "descent_harness",
+                        "alloy_shield"
+                    ],
+                    "limit": 3
+                }
+            ]
+        }
+    },
+    "models": {},
+    "armors": {
+        "ambusher_camouflage": {
+            "name": "Ambusher Camouflage",
+            "defense_bonus": 0,
+            "survival_bonus": 3,
+            "mobility_actions": "Grapple",
+            "rules": [
+                "aptitude_stealth"
+            ],
+            "points": 30
+        },
+        "intrusion_suit": {
+            "name": "Intrusion Suit",
+            "defense_bonus": 3,
+            "survival_bonus": 3,
+            "mobility_actions": "Grapple, Dash",
+            "rules": [
+                "taking_out_basic_move_action"
+            ],
+            "points": 40
+        }
+    },
+    "weapons": {
+        "n3_charges": {
+            "name": "N-3 Charges",
+            "range": "6",
+            "strength": "4 AP",
+            "ammo": "",
+            "rules": [
+                "grenade",
+                {
+                    "id": "blast",
+                    "x": 2
+                },
+                "brutal"
+            ],
+            "points": 20
+        },
+        "vesper_rifle": {
+            "name": "Vesper Rifle",
+            "range": "18",
+            "strength": "3 AP",
+            "ammo": "Auto",
+            "rules": [
+                "primary_weapon",
+                "perform_stealth"
+            ],
+            "points": 30
+        },
+        "interdiction_rifle": {
+            "name": "Interdiction Rifle",
+            "range": "24",
+            "strength": "5 AP",
+            "ammo": "Auto",
+            "rules": [
+                "primary_weapon",
+                "bulky"
+            ],
+            "points": 50
+        }
+    },
+    "rules": {
+        "ambush_tactics": {
+            "name": "Ambush Tactics",
+            "description": "All zone stalkers gain +2 bonus for attacks made while under stealth or superior stealth.",
+            "points": 0
+        },
+        "aptitude_stealth": {
+            "name": "Aptitude check",
+            "description": "Action: Make an aptitude check to gain or regain Stealth.",
+            "points": 0
+        },
+        "taking_out_basic_move_action": {
+            "name": "Gain basic move action",
+            "description": "Taking Out an Enemy grants an immediate basic move action.",
+            "points": 0
+        },
+        "perform_stealth": {
+            "name": "Perform stealth",
+            "description": "On a 12+, Shooting attacks do not cause Stealth to be lost.",
+            "points": 0
+        },
+        "explosive_trap": {
+            "name": "Explosive Trap",
+            "description": "Action: Place a Trap token in base contact with the model. Any enemy model that moves within 4 inches and LOS of the Trap token suffers an automatic Shooting attack from an N-3 Charges weapon using a Shooting stat of 8, then remove the token from play.",
+            "flavor": "Single Use: May be used only once Per Battle",
+            "points": 20
+        },
+        "self_replenishing_smoke": {
+            "name": "Self-Replenishing (SR) Smoke",
+            "description": "Operates as the Smoke Canisters equipment item, but the Cloud is only removed on a roll of 17+.",
+            "flavor": "Single Use: May be used only once Per Battle",
+            "points": 15
+        },
+        "rangefinder_scope": {
+            "name": "Rangefinder Scope",
+            "description": "Allows Aimed Attack Action with an additional 6-inch range bonus to Primary Weapons.",
+            "points": 25
+        }
+    },
+    "strategies": [
+        {
+            "name": "Explosive Surprise",
+            "description": "Trespassers and Troubleshooters may equip N-3 Charges for free at the start of the game.",
+            "cost": "Tech 4"
+        },
+        {
+            "name": "Shredder Rounds ",
+            "description": "Vesper Rifles and Interdiction Rifles gain Rupturing. Additionally, Interdiction Rifles lose Bulky. ",
+            "cost": "Tech 8"
+        },
+        {
+            "name": "Deep Infiltration",
+            "description": "One model may gain Forward Positioning skill for this mission.",
+            "cost": "Bio 2"
+        },
+        {
+            "name": "Lightweight Composites",
+            "description": "All Stalker models gain +2 to their Defense stat while this Doctrine is enabled.",
+            "cost": "Bio 6"
+        },
+        {
+            "name": "Ambush Mastery",
+            "description": "Replaces Ambush Tactics. All Zone Stalkers gain +4 bonus for attacks made while under Stealth or Superior Stealth. Additionally, the attack gains +2 Strength.",
+            "cost": "Tactics 4"
+        },
+        {
+            "name": "One Shot, One Kill",
+            "description": "Aimed Attack Actions grant the attacker the Headshot skill until the end of the attack.",
+            "cost": "Tactics 6"
+        }
+    ]
+}
