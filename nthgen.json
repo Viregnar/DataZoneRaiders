@@ -29,8 +29,40 @@
                 }
             ],
             "options": [
-                {"addWeapon": [], "limit": 2},
-                {"addArmor": [], "limit": 1}
+                {
+                    "addWeapon": [],
+                    "limit": 2
+                },
+                {
+                    "addArmor": [],
+                    "limit": 1
+                },
+                {
+                    "addRule": [
+                        "secure_datalink",
+                        "situation_processor",
+                        "neuralgrid_backup",
+                        "spare_battery",
+                        "ballistic_optics",
+                        "auto_reloader",
+                        "defense_matrix",
+                        "smoke_canister",
+                        "interface_deck",
+                        "cutter_tools",
+                        "trauma_kit",
+                        "nano_infusion",
+                        "comms_uplink",
+                        "tech_jammer",
+                        "magnetic_boots",
+                        "compressed_rations",
+                        "hazard_inoculation",
+                        "hardLight_emitter",
+                        "scouting_sensor",
+                        "descent_harness",
+                        "alloy_shield"
+                    ],
+                    "limit": 3
+                }
             ]
         },
         "next_gen": {
@@ -59,8 +91,40 @@
                 }
             ],
             "options": [
-                {"addWeapon": [], "limit": 2},
-                {"addArmor": [], "limit": 1}
+                {
+                    "addWeapon": [],
+                    "limit": 2
+                },
+                {
+                    "addArmor": [],
+                    "limit": 1
+                },
+                {
+                    "addRule": [
+                        "secure_datalink",
+                        "situation_processor",
+                        "neuralgrid_backup",
+                        "spare_battery",
+                        "ballistic_optics",
+                        "auto_reloader",
+                        "defense_matrix",
+                        "smoke_canister",
+                        "interface_deck",
+                        "cutter_tools",
+                        "trauma_kit",
+                        "nano_infusion",
+                        "comms_uplink",
+                        "tech_jammer",
+                        "magnetic_boots",
+                        "compressed_rations",
+                        "hazard_inoculation",
+                        "hardLight_emitter",
+                        "scouting_sensor",
+                        "descent_harness",
+                        "alloy_shield"
+                    ],
+                    "limit": 3
+                }
             ]
         },
         "production_gen": {
@@ -88,8 +152,40 @@
                 }
             ],
             "options": [
-                {"addWeapon": [], "limit": 2},
-                {"addArmor": [], "limit": 1}
+                {
+                    "addWeapon": [],
+                    "limit": 2
+                },
+                {
+                    "addArmor": [],
+                    "limit": 1
+                },
+                {
+                    "addRule": [
+                        "secure_datalink",
+                        "situation_processor",
+                        "neuralgrid_backup",
+                        "spare_battery",
+                        "ballistic_optics",
+                        "auto_reloader",
+                        "defense_matrix",
+                        "smoke_canister",
+                        "interface_deck",
+                        "cutter_tools",
+                        "trauma_kit",
+                        "nano_infusion",
+                        "comms_uplink",
+                        "tech_jammer",
+                        "magnetic_boots",
+                        "compressed_rations",
+                        "hazard_inoculation",
+                        "hardLight_emitter",
+                        "scouting_sensor",
+                        "descent_harness",
+                        "alloy_shield"
+                    ],
+                    "limit": 3
+                }
             ]
         },
         "last_gen": {
@@ -117,8 +213,40 @@
                 }
             ],
             "options": [
-                {"addWeapon": [], "limit": 2},
-                {"addArmor": [], "limit": 1}
+                {
+                    "addWeapon": [],
+                    "limit": 2
+                },
+                {
+                    "addArmor": [],
+                    "limit": 1
+                },
+                {
+                    "addRule": [
+                        "secure_datalink",
+                        "situation_processor",
+                        "neuralgrid_backup",
+                        "spare_battery",
+                        "ballistic_optics",
+                        "auto_reloader",
+                        "defense_matrix",
+                        "smoke_canister",
+                        "interface_deck",
+                        "cutter_tools",
+                        "trauma_kit",
+                        "nano_infusion",
+                        "comms_uplink",
+                        "tech_jammer",
+                        "magnetic_boots",
+                        "compressed_rations",
+                        "hazard_inoculation",
+                        "hardLight_emitter",
+                        "scouting_sensor",
+                        "descent_harness",
+                        "alloy_shield"
+                    ],
+                    "limit": 3
+                }
             ]
         },
         "heavy_variant": {
@@ -148,8 +276,40 @@
                 }
             ],
             "options": [
-                {"addWeapon": [], "limit": 2},
-                {"addArmor": [], "limit": 1}
+                {
+                    "addWeapon": [],
+                    "limit": 2
+                },
+                {
+                    "addArmor": [],
+                    "limit": 1
+                },
+                {
+                    "addRule": [
+                        "secure_datalink",
+                        "situation_processor",
+                        "neuralgrid_backup",
+                        "spare_battery",
+                        "ballistic_optics",
+                        "auto_reloader",
+                        "defense_matrix",
+                        "smoke_canister",
+                        "interface_deck",
+                        "cutter_tools",
+                        "trauma_kit",
+                        "nano_infusion",
+                        "comms_uplink",
+                        "tech_jammer",
+                        "magnetic_boots",
+                        "compressed_rations",
+                        "hazard_inoculation",
+                        "hardLight_emitter",
+                        "scouting_sensor",
+                        "descent_harness",
+                        "alloy_shield"
+                    ],
+                    "limit": 3
+                }
             ]
         }
     },
@@ -229,8 +389,22 @@
             "name": "SYNTHETIC DATALINK",
             "description": "All nthgen models may perform the interface action",
             "points": 0
+        },
+        "secure_datalink": {
+            "name": "Secure Datalink",
+            "description": "While the model carrying it is Active, the team is immune to the effects of Tech Jammer Equipment while within 18 inches of the Secure Datalink. Gain +4 to Interface Aptitude Checks.",
+            "cost": 20
+        },
+        "situation_processor": {
+            "name": "Situation Processor",
+            "description": "2 Actions: When this model can see at least one enemy model, it may grant a single action to any friendly model that must be used immediately. This does not count as their activation.",
+            "cost": 35
+        },
+        "neuralgrid_backup": {
+            "name": "Neuralgrid Backup",
+            "description": "When this model is killed, it can be resurrected with all skills and stats kept by paying its initial recruiting cost, though equipment may still be lost.",
+            "cost": 50
         }
     },
-    "strategies": {},
-    "relics": {}
+    "strategies": {}
 }

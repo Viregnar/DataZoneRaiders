@@ -37,7 +37,9 @@
       }
     }
   },
-  "relics": {},
+  "relics": {
+    
+  },
   "powerCategories": {},
   "powers": {},
   "weapons": {
@@ -258,7 +260,8 @@
           "id": "speed_modifier",
           "x": 1
         },
-        "lose_bulky","large"
+        "lose_bulky",
+        "large"
       ],
       "points": 20
     }
@@ -620,6 +623,111 @@
       "description": "+2 Survival vs Hazards",
       "prerequis": "",
       "points": 0
+    },
+
+
+    "spare_battery": {
+      "name": "Spare Battery",
+      "description": "Each Battery carried grants the carrier 1 Battery Token per game. A Battery Token may be consumed to enhance a Powered equipment item or provide a model with a free single action move per activation.",
+      "flavor": "",
+      "cost": 10
+    },
+    "ballistic_optics": {
+      "name": "Ballistic Optics",
+      "description": "Allows Aimed Attack Action",
+      "flavor": "",
+      "cost": 10
+    },
+    "auto_reloader": {
+      "name": "Auto-Reloader",
+      "description": "This model may remove all of its Out of Ammo tokens as a free action.",
+      "flavor": "Single Use: May be used only once Per Battle.",
+      "cost": 15
+    },
+    "defense_matrix": {
+      "name": "Defense Matrix",
+      "description": "Action: Give a friendly model within 8 inches the Hunker Down status. If the chosen friendly model has not yet activated this round, Hunker Down is not removed by its activation this round.",
+      "flavor": "Excess Power: May spend a battery token to extend range to 16 inches.",
+      "cost": 20
+    },
+    "smoke_canister": {
+      "name": "Smoke Canister",
+      "description": "The model may spend one action to place an AoE2 Cloud template centered within 8 inches. The Cloud counts as a Low Visibility Area of Terrain with Opaque and Covering. The cloud disappears at the end of each round on a roll of 13+.",
+      "flavor": "Single Use: May be used only once Per Battle.",
+      "cost": 10
+    },
+    "interface_deck": {
+      "name": "Interface Deck",
+      "description": "Allows Interface Action with a +4 Bonus to Aptitude for the roll.",
+      "cost": 15
+    },
+    "cutter_tools": {
+      "name": "Cutter Tools",
+      "description": "Action: Cuts open a Medium Profile-sized hole in a wall or floor that is up to 1 inch thick. Leave a Hole token to represent the area removed. A Small or Medium model may move through the hole.",
+      "flavor": "Single Use: May be used only once Per Battle. Powered: May spend a Battery Token for an additional use.",
+      "cost": 15
+    },
+    "trauma_kit": {
+      "name": "Trauma Kit",
+      "description": "Allows Heal Action",
+      "flavor": "Single Use: May be used only once Per Battle.",
+      "cost": 15
+    },
+    "nano_infusion": {
+      "name": "Nano-Infusion",
+      "description": "Free action: Automatically pass all survival stat checks until end phase.",
+      "flavor": "Single Use: May be used only once Per Battle.",
+      "cost": 10
+    },
+    "comms_uplink": {
+      "name": "Comms Uplink",
+      "description": "When this model is Active, you may gain an extra command point at the Preparation Phase.",
+      "flavor": "Limited: Max One per Team",
+      "cost": 30
+    },
+    "tech_jammer": {
+      "name": "Tech Jammer",
+      "description": "Action: Spend 1 Battery Token or 1 Command Point: Choose an enemy unit within 8 inches of this model. You may give that unit an Out of Ammo, Suppression or Armor Failure token which is removed at the end of the round.",
+      "cost": 25
+    },
+    "magnetic_boots": {
+      "name": "Magnetic Boots",
+      "description": "You may make an aptitude check to prevent an involuntary fall or push, stopping the model from being moved.",
+      "flavor": "Excess Power: May spend a battery token to automatically pass this test.",
+      "cost": 10
+    },
+    "compressed_rations": {
+      "name": "Compressed Rations",
+      "description": "Gain 1 Reroll on any Survival, Shooting, Melee or Aptitude Check made by this Model.",
+      "flavor": "Single Use: May be used only once Per Battle",
+      "cost": 10
+    },
+    "hazard_inoculation": {
+      "name": "Hazard Inoculation",
+      "description": "May reroll a survival check from Hazard Areas or spend one action to remove the effects of Radiation and NanoContamination on itself or a friendly model in base contact.",
+      "flavor": "Single Use: May be used only once Per Battle",
+      "cost": 10
+    },
+    "hardLight_emitter": {
+      "name": "HardLight Emitter",
+      "description": "Action: Creates a HardLight Barrier terrain object within 8 inches of the model. The HardLight Barrier is removed when this model is no longer in the Active state.",
+      "flavor": "Single Use: May be used only once Per Battle. Powered: May spend a Battery Token to use an additional time.",
+      "cost": 30
+    },
+    "scouting_sensor": {
+      "name": "Scouting Sensor",
+      "description": "+2 bonus to Mark Target actions. This model ignores the Stealth skill on enemies.",
+      "cost": 15
+    },
+    "descent_harness": {
+      "name": "Descent Harness",
+      "description": "The model may fall any distance as part of its activation without penalty or harm.",
+      "cost": 10
+    },
+    "alloy_shield": {
+      "name": "Alloy Shield",
+      "description": "This model gains +2 Defense Bonus on top of other Armor bonuses. This model may not use or equip Primary Weapons. This model may be used as Cover by other friendly models.",
+      "cost": 15
     }
   },
   "units": {}
