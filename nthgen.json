@@ -406,5 +406,36 @@
             "points": 50
         }
     },
-    "strategies": {}
+    "strategies": [
+        {
+            "name": "Revised Security Firmware",
+            "description": "All NthGens gain +2 to Aptitude for Interface Actions",
+            "cost": 0
+        },
+        {
+            "name": "Repair Subroutines",
+            "description": "NthGen Models affected by Armor Failure may forfeit their activations and make an aptitude check. On a success, they are no longer suffering from Armor Failure.",
+            "cost": 0
+        },
+        {
+            "name": "Bioemulatory Augmentations",
+            "description": "Models equipped with NthGen Faction Armor gain an additional +2 Survival Bonus.",
+            "cost": 0
+        },
+        {
+            "name": "Evolved Redundancies",
+            "description": "Next Gen, Heavy Variant and Prototype models gain the Tough skill while this Doctrine is Enabled.",
+            "cost": 0
+        },
+        {
+            "name": "Rapid Sensory Adaptation",
+            "description": "You may attempt to declare an attack on a model with Stealth or Superior Stealth, roll a die. On a 11+, you may target the model. Otherwise, this model’s activation ends and the enemy model was not targeted.",
+            "cost": 0
+        },
+        {
+            "name": "Translocation Module",
+            "description": "Once per game at the Preparation Phase, the Prototype’s position may be swapped with any other friendly NthGen model within 8 inches.",
+            "cost": 0
+        }
+    ]
 }
